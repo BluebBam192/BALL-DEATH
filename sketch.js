@@ -51,7 +51,8 @@ function setup() {
   invisibleGround.shapeColor = "#f4cbaa";
   
   ground = createSprite(width/2,height/2-30,width*4,height*2);
-  ground.scale=2.5
+  ground.scale=3;
+  
   ground.addImage("ground",groundImage);
   ground.x = width/2
   ground.velocityX = -(6 + 3*score/100);
